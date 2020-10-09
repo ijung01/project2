@@ -40,6 +40,6 @@ p {
   margin-left: 100px;
 }
 
-.artist-name {
+.information, .artist-name {
   margin-left: 0px;
 }
