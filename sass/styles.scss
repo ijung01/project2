@@ -30,8 +30,13 @@ body {
     /* border: 1px solid blue;*/
 }
 
-h1
+h1, 
+h4,
+p {
+    font-size: 2vw;
+}
 
+.conference-title,
 h2, 
 h3 {
     font-size: 3.5vw;
@@ -66,7 +71,7 @@ p {
     grid-column: 3 / 4;
 }
 
-
+/*
 #events {
     margin-top: 25vw;
 }
@@ -74,4 +79,4 @@ p {
 #about {
     margin-top: 25vw;
 }
-
+*/
