@@ -4,11 +4,18 @@
     padding: 0;
 }
 
-.u-list-reset {
+ul {
     list-style: none;
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
+}
+
+.background-grid {
+    display: grid;
+    margin: 2% 2% 2% 2%;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
 }
 
 body {
