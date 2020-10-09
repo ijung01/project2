@@ -24,6 +24,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-align: left;
   line-height: 1.2;
+  overflow-wrap: break-word;
   /*min-height: 100vh;*/
   /* border: 1px solid blue;*/
 }
@@ -44,9 +45,24 @@ section {
 }
 
 p {
-  margin-left: 100px;
+  margin-left: 10vw;
 }
 
 .information, .artist-name {
   margin-left: 0px;
+}
+
+#leftcolumn {
+  grid-column: 1/2;
+  align-self: center;
+}
+
+#centercolumn {
+  grid-column: 2/3;
+  align-self: center;
+}
+
+#rightcolumn {
+  grid-column: 3/4;
+  align-self: center;
 }
