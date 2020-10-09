@@ -13,7 +13,6 @@ ul {
 
 .background-grid {
     display: grid;
-    margin: 2% 2% 2% 2%;
     grid-template-columns: 32% 32% 32%;
     grid-column-gap: 2%;
 }
@@ -26,6 +25,7 @@ body {
     text-align: left;
     line-height: 1.2;
     overflow-wrap: break-word;
+    margin: 2% 2% 2% 2%;
     /*min-height: 100vh;*/
     /* border: 1px solid blue;*/
 }
