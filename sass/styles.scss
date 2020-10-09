@@ -16,8 +16,6 @@ ul {
     margin: 2% 2% 2% 2%;
     grid-template-columns: 32% 32% 32%;
     grid-column-gap: 2%;
-    grid-row-gap: 2%;
-    grid-template-rows: repeat (1, 6vw); 
 }
 
 body {
@@ -58,6 +56,7 @@ p {
     margin-left: 0px;
 }
 
+/*
 #leftcolumn {
     grid-column: 1 / 2;
 }
@@ -69,11 +68,13 @@ p {
 #rightcolumn {
     grid-column: 3 / 4;
 }
+*/ 
 
 #events {
-    grid-column: 2 / 3;
+    margin-top: 25vw;
 }
 
 #about {
-    grid-column: 1
+    margin-top: 25vw;
 }
+
