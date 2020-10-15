@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border: 0;
 }
 
 ul {
@@ -13,7 +14,7 @@ ul {
 
 main {
   display: grid;
-  grid-template-columns: 3fr 3fr 3fr;
+  grid-template-columns: 1fr 1fr 1fr;
   background: lightcoral;
 }
 
@@ -96,9 +97,3 @@ span {
     margin-top: 25vw;
 }
 */
-details > summary {
-  background-color: #eeeeee;
-  border: none;
-  cursor: pointer;
-  font-size: 1.5vw;
-}
