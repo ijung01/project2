@@ -131,7 +131,7 @@ span {
 /*Adjusting DIV items in grids*/
 .item {
   overflow-wrap: break-word;
-  hyphens: auto;
+  hyphens: none;
 }
 
 .item:nth-child(1) {
