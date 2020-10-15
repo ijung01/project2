@@ -13,8 +13,8 @@ ul {
 
 main {
     display: grid;
-    grid-template-columns: 32% 32% 32%;
-    grid-column-gap: 2%;
+    grid-template-columns: 3fr 3fr 3fr; 
+    background: lightcoral;
 }
 
 body {
@@ -71,7 +71,7 @@ span {
     margin-left: 0px;
 }
 
-
+/*
 #leftcolumn {
     grid-column-start: 1;
     grid-column-end: 2;
@@ -87,6 +87,7 @@ span {
 #rightcolumn {
     grid-column: 3 / 4;
 }
+*/
 
 /*
 #events {
