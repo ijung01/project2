@@ -45,12 +45,12 @@ section {
   text-transform: uppercase;
 }
 
-p {
-  margin-left: 6vw;
+.information {
+  margin-left: 0px;
 }
 
-.information, .artist-name {
-  margin-left: 0px;
+.description-indent {
+  margin-left: 6vw;
 }
 
 #leftcolumn {

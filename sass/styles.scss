@@ -46,14 +46,14 @@ section {
     text-transform: uppercase;
 }
 
-p {
-    margin-left: 6vw;
-}
 
-.information, .artist-name {
+.information {
     margin-left: 0px;
 }
 
+.description-indent {
+    margin-left: 6vw;
+}
 
 #leftcolumn {
     grid-column-start: 1;
