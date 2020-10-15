@@ -38,13 +38,18 @@ body {
   }
 }
 
+.indent-container {
+background: gray;
+}
+
 .em-dash {
-  border-bottom: 0.5vw; 
+  border-bottom: 5px; 
   border-color: black;
-  height: 2vw;
   background: white;
-  position: relative; 
-  
+  position: relative;
+  width: 5vw;
+  display: flex; 
+  align-items: start;
 }
 
 .u-sr-only {
