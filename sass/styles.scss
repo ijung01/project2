@@ -12,14 +12,6 @@ ul {
     padding-left: 0;
 }
 
-main {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-auto-rows: minmax(10em, auto);
-    background: lightcoral;
-}
-
 body {
     background-color:white; 
     color: hsl(190, 5%, 15%);
@@ -28,10 +20,20 @@ body {
     text-align: left;
     text-transform: uppercase;
     line-height: 1.2;
-    margin: 2% 2% 2% 2%;
     /*min-height: 100vh;*/
     /*overflow-wrap: break-word;*/
     /* border: 1px solid blue;*/
+}
+
+@media (min-width: 400px) {
+.content-wrapper {
+    display: grid;
+    overflow-x: hidden;
+    max-width: 100vw;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-auto-rows: minmax(10em, auto);
+    background: lightcoral;
+}
 }
 
 .u-sr-only {
@@ -102,3 +104,4 @@ span {
 .item:nth-child(2) {
 
 }
+
