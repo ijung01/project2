@@ -13,7 +13,7 @@ ul {
 }
 
 body {
-  background-color: coral;
+  background-color: whitesmoke;
   color: #242828;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-align: left;
@@ -49,7 +49,7 @@ body {
 }
 
 h1, h4, p, span, ul {
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 
 .conference-title,
@@ -80,9 +80,12 @@ span {
 
 .large-font {
   font-size: 3vw;
-  font-weight: 
+  font-weight: bold;
 }
 
+.small-font {
+  font-size: 2vw;
+}
 /*
 #leftcolumn {
     grid-column-start: 1;
@@ -140,23 +143,29 @@ background: red;
       
 .item:nth-child(5) {
   grid-column: 2/3;
-  grid-row: 8/10;
+  grid-row: 8/9;
   background: yellow;
 }
 
 .item:nth-child(6) {
-  grid-column: 3/4;
-  grid-row: 1/3;
+  grid-column: 2/3;
+  grid-row: 9/10;
   background: silver;
 }
 
 .item:nth-child(7) {
   grid-column: 3/4;
-  grid-row: 3/7; 
+  grid-row: 1/3; 
   background: burlywood;
 }
 
 .item:nth-child(8) {
+  grid-column: 3/4;
+  grid-row: 3/8;
+  background: lightblue;
+}
+
+.item:nth-child(9) {
   grid-column: 3/4;
   grid-row: 8/10;
   background: lightblue;
