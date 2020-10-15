@@ -50,13 +50,13 @@ body {
 }
 
 h1, h4, p, span, ul {
-    font-size: 2vhw;
+    font-size: 1.5vw;
 }
 
 .conference-title,
 h2, 
 h3 {
-    font-size: 3.4vhw;
+    font-size: 3vw;
 }
 
 section {
@@ -103,10 +103,13 @@ span {
 }
 */
 
+
+
 .item:nth-child(1) {
     grid-column: 1/2;
     grid-row: 1/3;
     background: blue;
+    
 }
 
 .item:nth-child(2) {

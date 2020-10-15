@@ -48,13 +48,13 @@ body {
 }
 
 h1, h4, p, span, ul {
-  font-size: 2vhw;
+  font-size: 1.5vw;
 }
 
 .conference-title,
 h2,
 h3 {
-  font-size: 3.4vhw;
+  font-size: 3vw;
 }
 
 section {
