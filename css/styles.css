@@ -31,7 +31,8 @@ body {
 
 h1,
 h4,
-p {
+p,
+span {
   font-size: 2vw;
 }
 
@@ -45,12 +46,12 @@ section {
   text-transform: uppercase;
 }
 
-.information {
-  margin-left: 0px;
+p, span {
+  margin-left: 6vw;
 }
 
-.description-indent {
-  margin-left: 6vw;
+.information, .artist-name {
+  margin-left: 0px;
 }
 
 #leftcolumn {
