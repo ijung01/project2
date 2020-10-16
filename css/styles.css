@@ -19,7 +19,7 @@ body {
   text-align: left;
   font-weight: bold;
   text-transform: uppercase;
-  line-height: 1.2;
+  line-height: 1.1;
   /*min-height: 100vh;*/
   /*overflow-wrap: break-word;*/
   /* border: 1px solid blue;*/
@@ -63,13 +63,13 @@ font-style: normal;
 }
 
 h1, h4, p, span, ul {
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 .conference-title,
 h2,
 h3 {
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 h4 {font-style: italic;}
@@ -95,38 +95,12 @@ span {
 }
 
 .large-font {
-  font-size: 4vw;
+  font-size: 5vw;
 }
 
 .small-font {
   font-size: 2vw;
 }
-/*
-#leftcolumn {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    overflow-wrap: break-word;
-    hyphens: auto;
-}
-
-#centercolumn {
-    font-size: fluid;
-    grid-column: 2 / 3;
-}
-
-#rightcolumn {
-    grid-column: 3 / 4;
-}
-*/
-/*
-#events {
-
-}
-
-#about {
-    margin-top: 25vw;
-}
-*/
 
 /*Adjusting DIV items in grids*/
 .item {
