@@ -41,15 +41,19 @@ body {
 .em-dash-container {
 display: flex; 
 justify-content: space-between; 
-align-items: center; 
+align-items: center;
 }
+
+.em-dash-container > p{
+justify-content: flex-start;
+  }
 
 .em-dash {
   background:black;
   height: 0.25vw;
   width: 5vw;
-  /*top: 1.35vw;
-  left: 0.5vw;*/
+  /*top: 1.35vw;*/
+  margin-left: 0.5vw;
 }
 
 .u-sr-only {
