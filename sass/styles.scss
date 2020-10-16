@@ -6,6 +6,9 @@ $serif: "Cormorant Garamond", serif;
 $indent: 6vw;
 $text-small: 3vw;
 $text-large: 5vw;
+$undo: none;
+
+
 
 //Basic Document Settings//
 * {
@@ -64,6 +67,8 @@ span {
     width: 1px;
 }
   
+
+
 //Indented Em-dash settings//
 .em-dash-container {
     display: flex; 
@@ -78,6 +83,8 @@ span {
     margin: 0px 1vw 0px 0px; 
 }
   
+
+
 //Text Formatting & Styling//
 .indent-event-description { 
     margin-left: $indent;
@@ -91,7 +98,9 @@ span {
     font-size: $text-small;
 }
   
-/*Adjusting DIV items in Grids*/ 
+
+
+//Adjusting DIV items in Grids//
 main {
     margin: 1.5%;
     display: grid;
@@ -103,7 +112,7 @@ main {
   
 .item {
     overflow-wrap: break-word;
-    hyphens: none;
+    hyphens: $undo;
 }
   
 .item:nth-child(1) {
@@ -134,7 +143,7 @@ main {
     grid-column: 2/3;
     grid-row: 8/9;
     font-family: $serif;
-    text-transform: none;
+    text-transform: $undo;
     /*background: yellow;*/
 }
   
@@ -142,7 +151,7 @@ main {
     grid-column: 2/3;
     grid-row: 9/10;
     font-family: $serif;
-    text-transform: none;
+    text-transform: $undo;
     /*background: silver;*/
 }
   
@@ -162,7 +171,7 @@ main {
     grid-column: 3/4;
     grid-row: 8/10;
     font-family: $serif;
-    text-transform: none;
+    text-transform: $undo;
     /*background: lightblue;*/
   }
   
