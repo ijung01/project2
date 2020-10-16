@@ -41,13 +41,13 @@ address {
     }
     
 h1, h4, p, span, ul {
-  font-size: 3vw;
+  font-size: 3.5vw;
 }
     
 .conference-title,
 h2,
 h3 {
-  font-size: 5vw;
+  font-size: 5.5vw;
 }
     
 h4 {font-style: italic;}
@@ -89,7 +89,7 @@ align-items: center;
 
 /*Text Formatting/Styling*/
 
-.event-description { 
+.indent-event-description { 
   margin-left: 6vw;
 }
 
@@ -97,12 +97,8 @@ align-items: center;
   margin-left: 0px;
 }
 
-.indented {
-  margin-left: 6vw;
-}
-
 .large-font {
-  font-size: 5vw;
+  font-size: 5.5vw;
 }
 
 .small-font {
