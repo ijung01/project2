@@ -87,11 +87,12 @@ align-items: center;
   margin-right:1vw;
 }
 
-.flexbox-indent {
-  margin-left: 0px;
+/*Text Formatting/Styling*/
+
+.event-description { 
+  margin-left: 6vw;
 }
 
-/*Text Formatting/Styling*/
 .artist-name {
   margin-left: 0px;
 }
