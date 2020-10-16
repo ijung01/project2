@@ -1,15 +1,9 @@
+/*Basic Document Settings*/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
   border: 0;
-}
-
-ul {
-  list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
 }
 
 body {
@@ -25,18 +19,60 @@ body {
   /* border: 1px solid blue;*/
 }
 
-  main {
-    margin: 2%;
-    display: grid;
-    grid-template-columns: repeat(3, 32%);
-    grid-template-rows: repeat(10, 10%);
-    column-gap: 2%;
-    row-gap: 2%
-    /*grid-auto-rows: minmax(10em, auto);*/
-  }
+main {
+  margin: 2%;
+  display: grid;
+  grid-template-columns: repeat(3, 32%);
+  grid-template-rows: repeat(10, 10%);
+  column-gap: 2%;
+  row-gap: 2%
+  /*grid-auto-rows: minmax(10em, auto);*/
+}
 
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
 
-  /*Indented Em-dash settings8*/
+address {
+    font-style: normal;
+    }
+    
+h1, h4, p, span, ul {
+  font-size: 3vw;
+}
+    
+.conference-title,
+h2,
+h3 {
+  font-size: 5vw;
+}
+    
+h4 {font-style: italic;}
+    
+section {
+  text-transform: uppercase;
+}
+    
+span {
+  margin-left: 6vw;
+  display: block;
+}
+
+.u-sr-only {
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  margin: -1px;
+  padding: 0;
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+}
+
+/*Indented Em-dash settings8*/
 .em-dash-container {
 display: flex; 
 justify-content: flex-start; 
@@ -55,44 +91,7 @@ align-items: center;
   margin-left: 0px;
 }
 
-.u-sr-only {
-  border: 0;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-  margin: -1px;
-  padding: 0;
-  position: absolute !important;
-  height: 1px;
-  width: 1px;
-}
-
-address {
-font-style: normal;
-}
-
-h1, h4, p, span, ul {
-  font-size: 3vw;
-}
-
-.conference-title,
-h2,
-h3 {
-  font-size: 5vw;
-}
-
-h4 {font-style: italic;}
-
-section {
-  text-transform: uppercase;
-}
-
-span {
-  margin-left: 6vw;
-  display: block;
-}
-
-
-
+/*Text Formatting/Styling*/
 .artist-name {
   margin-left: 0px;
 }
