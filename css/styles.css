@@ -15,7 +15,7 @@ ul {
 body {
   background-color: whitesmoke;
   color: #242828;
-  font-family: -apple-system, BlinkMacSystemFont, "Oswald", sans-serif, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: -apple-system, BlinkMacSystemFont, "Bebas Neue", cursive;, sans-serif, Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   text-align: left;
   font-weight: bold;
   text-transform: uppercase;
@@ -69,7 +69,7 @@ h1, h4, p, span, ul {
 .conference-title,
 h2,
 h3 {
-  font-size: 3.2vw;
+  font-size: 4vw;
 }
 
 h4 {font-style: italic;}
@@ -95,7 +95,7 @@ span {
 }
 
 .large-font {
-  font-size: 3.2vw;
+  font-size: 4vw;
 }
 
 .small-font {
