@@ -53,6 +53,7 @@ justify-content: flex-start;
   width: 5vw;
   /*top: 1.35vw;*/
   margin-left: 0.5vw;
+  margin-right:0.5vw;
 }
 
 .u-sr-only {
