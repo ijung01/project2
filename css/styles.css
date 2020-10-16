@@ -25,18 +25,15 @@ body {
   /* border: 1px solid blue;*/
 }
 
-@media (min-width: 200px) {
   main {
-    margin: 2% 2% 2% 2%;
+    margin: 2%;
     display: grid;
-    max-width: 100vw;
     grid-template-columns: repeat(3, 32%);
     grid-template-rows: repeat(10, 10%);
     column-gap: 2%;
     row-gap: 2%
     /*grid-auto-rows: minmax(10em, auto);*/
   }
-}
 
 .em-dash {
   background:black;
