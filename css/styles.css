@@ -43,17 +43,16 @@ justify-content: flex-start;
 align-items: center;
 }
 
-.em-dash-container > p{
-justify-content: flex-start;
-  }
-
 .em-dash {
   background:black;
   height: 0.25vw;
   width: 5vw;
   /*top: 1.35vw;*/
-  margin-left: 0.5vw;
-  margin-right:0.5vw;
+  margin-right:1vw;
+}
+
+.flexbox-indent {
+  margin-left: 0px;
 }
 
 .u-sr-only {
@@ -87,13 +86,12 @@ section {
   text-transform: uppercase;
 }
 
-p, span {
-  margin-left: 6vw;
-}
-
 span {
+  margin-left: 6vw;
   display: block;
 }
+
+
 
 .artist-name {
   margin-left: 0px;
@@ -108,7 +106,7 @@ span {
 }
 
 .small-font {
-  font-size: 2vw;
+  font-size: 3vw;
 }
 
 /*Adjusting DIV items in grids*/
