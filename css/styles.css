@@ -35,13 +35,23 @@ body {
     /*grid-auto-rows: minmax(10em, auto);*/
   }
 
+
+  /*Indented Em-dash settings8*/
+
+.em-dash-container {
+
+}
+
 .em-dash {
+  display: flex; 
+justify-content: space-between; 
+align-items: center; 
   background:black;
   position: relative;
   height: 0.25vw;
   width: 5vw;
-  top: 1.35vw;
-  left: 0.5vw;
+  /*top: 1.35vw;
+  left: 0.5vw;*/
 }
 
 .u-sr-only {
